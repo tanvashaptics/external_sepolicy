@@ -109,6 +109,7 @@ simphonebook                              u:object_r:radio_service:s0
 sip                                       u:object_r:radio_service:s0
 statusbar                                 u:object_r:statusbar_service:s0
 SurfaceFlinger                            u:object_r:surfaceflinger_service:s0
+tanvashaptic				  u:object_r:tanvas_service:s0
 task                                      u:object_r:task_service:s0
 telecom                                   u:object_r:telecom_service:s0
 telephony.registry                        u:object_r:registry_service:s0
@@ -129,3 +130,4 @@ wifiscanner                               u:object_r:wifiscanner_service:s0
 wifi                                      u:object_r:wifi_service:s0
 window                                    u:object_r:window_service:s0
 *                                         u:object_r:default_android_service:s0
+

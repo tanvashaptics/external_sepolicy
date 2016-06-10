@@ -158,3 +158,9 @@ neverallow untrusted_app mlstrustedsubject:process fork;
 # bugs, so we want to ensure untrusted_app never has this
 # capability.
 neverallow untrusted_app file_type:file link;
+
+allow untrusted_app tanvas_file:file { rw_file_perms };
+allow untrusted_app tanvas_dir:file { rw_file_perms };
+allow untrusted_app tanvas_dev:file { rw_file_perms };
+allow untrusted_app tanvas_file:dir search;
+allow untrusted_app usb_device:file rw_file_perms;
